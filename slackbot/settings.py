@@ -10,7 +10,7 @@ PLUGINS = [
 
 ERRORS_TO = None
 
-API_TOKEN = 'xoxb-318119714039-fRHozAcaZP3c8RuktSaUKWmt'
+API_TOKEN = os.environ['SLACK_API_KEY']
 
 '''
 Setup a comma delimited list of aliases that the bot will respond to.
